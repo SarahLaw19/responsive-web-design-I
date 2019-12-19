@@ -2,6 +2,7 @@
 
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>Great Idea - Responsive I</title>
 
@@ -15,37 +16,52 @@
 
   <!--nav/logo-->
 
-    <nav id="nav">
-      <div class="links">
-        <a href="#services">Services</a>
+  <header>
+
+    <div class='header-container'>
+    <nav>
+
+        <a class="ser" href="#services">Services</a>
         <a href="#product">Product</a>
         <a href="#vision">Vision</a>
         <a href="#features">Features</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <figure>
-          <a href="C:\Users\Sarah\Lambda-Projects\UI-III-Flexbox\great-idea\index.html">
-            <img class="logo" src="img/logo.png" alt="Great Idea! Company logo." />
-          </a>
-        </figure>
 
-      </div>
     </nav>
 
+   
+        <img class="logo" src="img/logo.png" alt="Great Idea! Company logo." />
 
-  <!--header-->
+  </div>
+  </header>
+
+  <section>
+
+  <div class="innovation-container">
+>
+      <h1>Innovation on Demand<button>Get Started</button></h1>
+    
+
+
+    <img class="header" src="img/header-img.png" alt="Image of a code snippet." />
+    
   
-  <header>
-    <div class="innovation">
+  </div>
+</section>
+
+
+<!--
+    <div class="innovation-container">
       <h1>Innovation on Demand</h1>
       <h3>Get Started</h3>
      
     </div>
     <div class="header-img">
-      <!-- set the background to the image -->
-      <img class="header" src="img/header-img.png" alt="Image of a code snippet." />
-    </div>
-  </header>
+
+      
+    </div>-->
+
 
  <!--<section id="innovation">
     <div class="heading">
@@ -68,59 +84,56 @@
 
 
 
-  <section id="Features">
-    <div class="container">
-      <div>
+  
+    <div class="features-container">
+      <!--<div>-->
         <!--<i class="fas fa-code"></i>-->
 
-        <p><strong>Features</strong><br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum ducimus modi
+        <p class="features"><strong>Features</strong><br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum ducimus modi
           magni laborum saepe fugiat, facere dolor consequuntur. Eligendi fugit quo eius officia, nobis alias. Illo
           doloremque aspernatur quam illum.</p>
-      </div><!-- this closes little div #1-->
-      <div>
+  <!-- this closes little div #1-->
+      
         <!-- this opens little div #2 -->
         <!--<i class="fas fa-code"></i>-->
 
-        <p><strong>About</strong><br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolorem id
+        <p class="about"><strong>About</strong><br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolorem id
           voluptates inventore placeat! Sequi rem inventore maiores ipsum impedit repudiandae id a deserunt reiciendis,
           perspiciatis deleniti neque. Corporis, tempora?</p>
-      </div><!-- this closes little div #2-->
+ 
     </div> <!-- this closes the container div-->
-  </section>
-
+ 
   <!--img in the center of the page-->
-  <img class="img1" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen" />
-
-  <section id="services">
-    <div class="section">
-      <div>
-        <p><strong>Services</strong> <br><br>Aliquam elementum magna eros, ac posuere elvit tempus et.
+ <div class="midimg">
+  <img src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen" />
+</div>
+  
+    <section class="service-container">
+     
+        <p class="services"><strong>Services</strong> <br><br>Aliquam elementum magna eros, ac posuere elvit tempus et.
           Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl.
           Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
-      </div><!-- this closes little div #1-->
-      <div>
+
         <!-- this opens little div #2 -->
 
-        <p><strong>Product</strong> <br><br>Aliquam elementum magna eros, ac posuere elvit tempus et.
+        <p class="product"><strong>Product</strong> <br><br>Aliquam elementum magna eros, ac posuere elvit tempus et.
           Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl.
           Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
-      </div>
-      <div>
 
-        <p><strong>Vision</strong><br><br>Aliquam elementum magna eros, ac posuere elvit tempus et.
+        <p class="vision"><strong>Vision</strong><br><br>Aliquam elementum magna eros, ac posuere elvit tempus et.
           Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl.
           Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
-      </div>
-    </div> <!-- this closes the container div-->
-  </section>
+     
+        </section> <!-- this closes the container div-->
+
 
   <!--Line across the page-->
   <hr size="4" width="58%" align="center" color="gray">
 
   <!--Address-->
-  <section id="address">
+  <section>
     <div class="add">
-      <div>
+      
         <address>
           <h2 class="contact">Contact</h2>
           <p>123 Way 456 Street<br>
@@ -128,9 +141,9 @@
             1 (888) 888-8888<br><br>
             sales@greatidea.io</p>
         </address>
-      </div>
+      
     </div>
-  </section>-->
+  </section>
 
   <footer>
     <p>Copyright Great Idea! 2018</p>
