@@ -114,11 +114,6 @@ a {
 
 
 
-
-
-
-    
-
 }
 
 
@@ -132,7 +127,6 @@ button{
 
 
 }
-
 
 
 .button {
@@ -168,27 +162,31 @@ button{
     margin-bottom: 2%;
     justify-content: center;
 }
+.service {
+  
+    padding: 8vh 2%;
+   
+  }
 
-
-.service-container{
+  
+  .service-container {
     display: flex;
+    justify-content: center;
     
     width: 75%;
-    margin: 0 15%;
-}
-
-.service-container p{
+    padding: 2%;
+    margin-left: 15%;
     
-    padding: 5%;
-}
+  }
+  
 
-.service-container strong{
-    font-weight: bolder;
-}
-
-
-
-
+  
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 2px;
+  }
 
 
 .add{
@@ -303,18 +301,20 @@ footer p {
     }
 
     .service-container {
-        width: 75%;
-        justify-content: space-evenly;
-       
-    }
-
-    .service-container p{
-    
+        flex-direction: row;
+        align-items: center;
         font-size: 10px;
         width: 75%;
-        margin: auto;
+        border: solid;
         
+
     }
+
+
+ p{
+     padding: 2%;
+ }
+        
 
    
 
